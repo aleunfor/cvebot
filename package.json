@@ -9,7 +9,7 @@
   "private": false,
   "type": "module",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc --output dist",
     "prettier": "prettier --write src/",
     "prepare": "husky install",
     "start": "node ./dist/index.js",
