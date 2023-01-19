@@ -1,0 +1,7 @@
+# flyctl launch added from cvebot\.gitignore
+cvebot\dist
+cvebot\**\.env
+cvebot\**\.cve-list
+cvebot\**\.vscode
+cvebot\**\node_modules
+fly.toml
