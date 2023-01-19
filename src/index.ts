@@ -47,8 +47,8 @@ async function main(): Promise<void> {
   }
 
   const cvssMetric =
-    typeof cve.metrics['cvssMetricV31'] != 'undefined'
-      ? cve.metrics['cvssMetricV31'][0]
+    typeof cve.metrics['cvssMetricV3'] != 'undefined'
+      ? cve.metrics['cvssMetricV3'][0]
       : null;
 
   const baseScore = cvssMetric?.cvssData.baseScore;
